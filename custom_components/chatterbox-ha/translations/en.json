@@ -1,0 +1,22 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "title": "Set up Chatterbox TTS",
+                "data": {
+                    "server_url": "Server URL",
+                    "voice": "Voice",
+                    "speed": "Speed",
+                    "seed": "Seed"
+                }
+            }
+        },
+        "error": {
+            "cannot_connect": "Failed to connect to server",
+            "unknown": "Unexpected error occurred"
+        },
+        "abort": {
+            "already_configured": "Service is already configured"
+        }
+    }
+}
