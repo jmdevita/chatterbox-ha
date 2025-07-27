@@ -1,5 +1,5 @@
 {
-    "domain": "chatterbox_ha",
+    "domain": "chatterbox_tts",
     "name": "Chatterbox TTS",
     "codeowners": ["@jmdevita"],
     "config_flow": true,
