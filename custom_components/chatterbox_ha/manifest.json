@@ -1,14 +1,14 @@
 {
-    "domain": "chatterbox-ha",
+    "domain": "chatterbox_ha",
     "name": "Chatterbox TTS",
     "codeowners": ["@jmdevita"],
     "config_flow": true,
-    "documentation": "https://github.com/jmdevita/chatterbox-ha",
+    "documentation": "https://github.com/jmdevita/chatterbox-ha/blob/main/README.md",
     "integration_type": "service",
     "iot_class": "local_polling",
     "issue_tracker": "https://github.com/jmdevita/chatterbox-ha/issues",
     "requirements": [
         "aiohttp>=3.8.0"
     ],
-    "version": "0.0.1"
+    "version": "0.1.0"
 }
