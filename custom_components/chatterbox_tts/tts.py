@@ -19,8 +19,7 @@ from .const import (
     CONF_SPEED,
     CONF_VOICE,
     DEFAULT_SEED,
-    DEFAULT_SPEED,
-    DEFAULT_VOICE,
+    DEFAULT_SPEED
 )
 
 _LOGGER = logging.getLogger(__name__)
