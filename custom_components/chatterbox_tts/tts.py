@@ -35,7 +35,7 @@ async def async_setup_entry(
 ) -> None:
     """Set up Chatterbox speech platform via config entry."""
     server_url = config_entry.data[CONF_SERVER_URL]
-    voice = config_entry.data.get(CONF_VOICE, DEFAULT_VOICE)
+    voice = config_entry.data.get(CONF_VOICE)
     speed = config_entry.data.get(CONF_SPEED, DEFAULT_SPEED)
     seed = config_entry.data.get(CONF_SEED, DEFAULT_SEED)
 
@@ -61,7 +61,7 @@ class ChatterboxTTSEntity(TextToSpeechEntity):
         self._speed = speed
         self._seed = seed
         self._attr_name = (
-            f"Chatterbox TTS ({config_entry.data.get(CONF_VOICE, DEFAULT_VOICE)})"
+            f"Chatterbox TTS ({config_entry.data.get(CONF_VOICE)})"
         )
         self._attr_unique_id = config_entry.entry_id
 
